@@ -1,0 +1,286 @@
+
+
+@font-face{
+	font-family:ZOMBIE;
+	
+	src: url(../fonts/DeadKansas.ttf);
+
+
+}
+@font-face{
+	font-family: Zombi;
+	src : url(../fonts/ZOMBIE.TTF);
+}
+
+
+
+
+
+
+#titre{
+	height: 60px;
+	width: 100%;
+	border: 1px solid black;
+	background-color: black;
+}
+#img{
+  height: 100%;
+  width:100%;
+
+}
+
+#h1{
+	text-align: center;
+	color: red;
+	margin-top: 10px;
+		font-family: Zombi;
+    background-color: black; 
+    
+
+
+}
+body{
+	/*background-image: url(../images/img1.png);*/
+	overflow-x: hidden;
+	background-color: #850606;
+	
+}
+
+ }
+/* p{
+ 	color: black;
+
+ }
+ #p1{
+ 	color: black;
+ 	font-size: 20px;
+ 	margin-top: 30px;
+ 	padding: 20px;
+ 		font-family:ZOMBIE;
+ 	 }
+
+#p2{
+	margin-top: 60px;
+	color: black;
+	font-size: 20px;
+	padding: 20px;
+		font-family:ZOMBIE;
+
+
+
+}
+#wal{
+	height: 395px;
+	width: 500px;
+	margin-top:120px;
+	margin-left: 20px;
+	
+
+}
+.p4{
+	font-size: 20px;
+		font-family:ZOMBIE;
+			padding: 20px;
+			color: black;
+
+
+}
+
+#h2{
+  text-align: center;
+  font-family: Zombi;
+  color: red;
+  padding: 15px;
+
+}*/
+//updated ver
+* {
+  box-sizing:border-box;
+}
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+.heading-primary {
+  font-size:2em;
+  padding:2em;
+  text-align:center;
+}
+.accordion dl,
+.accordion-list {
+ 
+   &:after {
+       content: "";
+       display:block;
+       height:1em;
+       width:100%;
+       background-color:#850606;
+     }
+}
+.accordion dd,
+.accordion__panel {
+   background-color:#850606;
+   font-size:1em;
+   line-height:1.5em; 
+}
+.accordion p {
+  padding:1em 2em 1em 2em;
+}
+
+.accordion {
+    position:relative;
+    background-color:white;
+}
+.contenu {
+  max-width:960px;
+  margin:0 2em;
+  padding:2em 0 2em 0;
+}
+.accordionTitle,
+.accordion__Heading {
+ background-color:black; 
+   text-align:center;
+     font-weight:700; 
+          padding:2em;
+          display:block;
+          text-decoration:none;
+          color:red;
+          transition:background-color 0.5s ease-in-out;
+  border-bottom:1px solid #850606;
+  &:before {
+   content: "+";
+   font-size:1.5em;
+   line-height:0.5em;
+   float:left; 
+   transition: transform 0.3s ease-in-out;
+  }
+  &:hover {
+    background-color:#850606;
+  }
+}
+.accordionTitleActive, 
+.accordionTitle.is-expanded {
+
+    &:before {
+     
+      transform:rotate(-225deg);
+    }
+}
+.accordionItem {
+    height:auto;
+    overflow:hidden; 
+    //SHAME: magic number to allow the accordion to animate
+    
+     max-height:50em;
+    transition:max-height 1s;   
+ 
+    
+    @media screen and (min-width:48em) {
+         max-height:15em;
+        transition:max-height 0.5s
+        
+    }
+    
+   
+}
+ 
+.accordionItem.is-collapsed {
+    max-height:0;
+}
+.no-js .accordionItem.is-collapsed {
+  max-height: auto;
+}
+.animateIn {
+     animation: accordionIn 0.45s normal ease-in-out both 1; 
+}
+.animateOut {
+     animation: accordionOut 0.45s alternate ease-in-out both 1;
+}
+@keyframes accordionIn {
+  0% {
+    opacity: 0;
+    transform:scale(0.9) rotateX(-60deg);
+    transform-origin: 50% 0;
+  }
+  100% {
+    opacity:1;
+    transform:scale(1);
+  }
+}
+
+@keyframes accordionOut {
+    0% {
+       opacity: 1;
+       transform:scale(1);
+     }
+     100% {
+          opacity:0;
+           transform:scale(0.9) rotateX(-60deg);
+       }
+}
+#h22{
+	height: 60px;
+	width: 100%;
+	background-color: black;
+	text-align: center;
+	font-family: ZOMBI;
+	color: red
+
+
+}
+
+#form{
+	height: 300px;
+	width: 300px;
+	text-align: center;
+	font-family: ZOMBIE;
+	color: black;
+	padding: 20px;
+}
+
+
+#div22{
+	color: black;
+	font-family:ZOMBIE;
+margin: 20px;
+padding: 20px;  
+}
+
+#zet{
+    font-family:ZOMBI;
+    font-size: 20px;
+
+}
+#zet1{
+    font-family:ZOMBI;
+    font-size: 20px;
+    }
+    #zet2{
+    font-family:ZOMBI;
+    font-size: 20px;
+    }
+     #zet3{
+    font-family:ZOMBI;
+    font-size: 20px;
+    }
+#h2{
+  text-align: center;
+  font-family: Zombi;
+  color: red;
+  padding: 15px;
+
+}
+#a5{
+  background-color: black;
+  color: #850606; 
+}
+
+
+
+#boutonChange{
+  top: 0;
+  font-family: Zombi;
+    text-align: center;
+    color: red;
+}
+#h13{
+  background-color: black;
+}
